@@ -1,0 +1,184 @@
+body,h1{
+  width: 100%;
+}
+
+p, li{
+  font-size: 14px;
+}
+
+hr{
+  height: 3px;
+  color: darkgray;
+  opacity: 40%
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+/* css texto slide */
+.t-slide{
+  color:black;
+}
+
+/* css menu */
+.row{
+  margin: 0;
+
+}
+
+.container{
+  padding: 20px 0;
+}
+
+.break{
+  height: 2px;
+}
+
+#nav-container{
+  padding-top: 0;
+  padding-bottom: 0
+}
+
+.navbar-brand{
+  padding: 0;
+  transition: 0.3s;
+}
+
+.navbar-brand:hover{
+  border-top: 3px solid #FFB84E;
+  background-color: #1f1e1e;
+
+}
+
+#navbar-links a {
+  color: #FFF;
+  transition: 0.3s;
+}
+#navbar-links a:hover {
+  border-top: 3px solid #FFB84E;
+  background-color: #1f1e1e;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding: 1rem .8rem;
+}
+
+/* css grid */
+#outer {
+  margin-top: -1%;
+  position: relative;
+  width: 100%;
+}
+
+#inner {
+  border-top: 3px solid #FFB84E;
+  width: 80%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+#footer{
+  margin:-1%;
+  border-top: 3px solid #FFB84E;
+}
+
+/*css cartoes da grid 2*/
+.container_foto {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  margin-top: 20%;
+  opacity: 1;
+  display: flex;
+  width: 200%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.meio {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container_foto:hover .image {
+  opacity: 0.5;
+}
+
+.container_foto:hover .meio {
+  opacity: 1;
+}
+
+.text {
+  background-color: #FFB84E;
+  color: white;
+  font-size: 16px;
+  padding: 20px 70px;
+}
+
+.decricao {
+  color: white;
+  background-color: #FFB84E;
+}
+
+#botao_foto{
+  margin-top: 0.5%;
+  align-content: center;
+}
+
+.avatar{
+  margin-top: 2%;
+  height: 15%;
+  width: 15%;
+}
+
+.paragrafo_blog::first-letter{
+  margin-left: 3em;
+}
+.redes{
+  align-content: center;
+}
+.redes:hover {
+    color: #FFB84E
+}
+
+.flecha {
+        color:#FFB84E;
+        bottom: 0;
+        position: fixed;
+        width: 90%;
+        text-align: center;
+    }
+
+.flecha:hover {
+            color:#1f1e1e;
+            bottom: 0;
+            position: fixed;
+            width: 90%;
+            text-align: center;
+        }
